@@ -1,0 +1,7 @@
+div
+  h2 Agregar Ficheros al SERVER
+
+div
+  form(action="/uploadmult", method="POST", enctype="multipart/form-data")
+    input(type="file", name="archivos", multiple)
+    input(type="submit", value="Enviar")
